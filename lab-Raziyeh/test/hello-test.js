@@ -11,8 +11,7 @@ describe('testing #greet()',function() {
   });
   it('should return error if no passing name',function(){
     assert.throws(function() {
-       greet();
-     },'error thrown');
+     greet();
+    },'error thrown');
   });
 });
-

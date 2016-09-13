@@ -24,4 +24,4 @@ gulp.task('watch', function(){
   gulp.watch(['**/*.js','./test/*.js'],['eslint','test']); 
 });
 
-gulp.task('default',['watch'])
+gulp.task('default',['watch']);

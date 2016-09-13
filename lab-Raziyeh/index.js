@@ -8,7 +8,5 @@
  // greet();
 
 
-const greet2 = require('./lib/hello-multi-export');
-
-greet2.sayHello();
-greet2.sayGoodbye();
+const greet = require('./lib/hello-modular.js');
+greet('razi');

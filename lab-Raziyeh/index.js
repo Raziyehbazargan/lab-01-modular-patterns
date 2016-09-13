@@ -8,5 +8,5 @@
  // greet();
 
 
-const greet = require('./lib/hello-modular.js');
+const greet = require('./lib/greet.js');
 greet('razi');

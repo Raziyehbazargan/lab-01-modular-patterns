@@ -10,9 +10,9 @@ describe('testing #greet()',function() {
     assert.equal(result, 'Hello razi');
   });
   it('should return error if no passing name',function(){
-     assert.throws(function() {
-      greet();
-    },'error thrown');
+    assert.throws(function() {
+       greet();
+     },'error thrown');
   });
 });
 

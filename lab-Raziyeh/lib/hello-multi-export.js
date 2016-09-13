@@ -8,7 +8,7 @@ module.exports = exports = {};
 exports.sayHello = function(name) {
   //console.log('Hellooooo');
   if(arguments.length === 0) throw new Error('error ');
-    return 'hello ' + name;
+  return 'hello ' + name;
 };
 
 exports.sayGoodbye = function() {

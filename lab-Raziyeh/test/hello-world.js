@@ -7,8 +7,8 @@ describe('testing module greet',function(){
   describe('testin #sayHello()',function() {
     it('should return hello dunc',function(){
     //  assert.ok(true === false, 'that was crazy');
-    let result = greetings.sayHello('dunc');
-        assert.ok(result === 'hello dunc','was not hello dunc');
+      let result = greetings.sayHello('dunc');
+      assert.ok(result === 'hello dunc','was not hello dunc');
     });
 
     it('should throw a missing a name error',function(){

@@ -8,5 +8,9 @@
  // greet();
 
 
+var argv = require('yargs')
+    .usage('Usage:node $0 -i [name]')
+    .argv;
+
 const greet = require('./lib/greet.js');
-greet('razi');
+greet(argv.i);
